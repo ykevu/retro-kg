@@ -1,0 +1,22 @@
+name: retro-kg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - pytorch
+  - pytorch-cuda=12.1
+  - networkx
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip:
+    - pebble
+    - scipy
+    - rdkit
+    - rdchiral
+prefix: /home/kyu3/miniconda3/envs/retro-kg
